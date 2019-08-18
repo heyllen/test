@@ -4,14 +4,14 @@
 
     <groupId>com.orange.test</groupId>
     <artifactId>test-parent</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.1-SNAPSHOT</version>
 
     <!--git 远程仓库配置-->
     <scm>
         <connection>scm:git:git@github.com:heyllen/test.git</connection>
         <url>git@github.com:heyllen/test</url>
         <developerConnection>scm:git:git@github.com:heyllen/test.git</developerConnection>
-        <tag>v4.0.0</tag>
+        <tag>test-parent-1.1</tag>
     </scm>
 
     <!--构建配置-->
