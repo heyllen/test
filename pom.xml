@@ -4,7 +4,7 @@
 
     <groupId>com.orange.test</groupId>
     <artifactId>test-parent</artifactId>
-    <version>4.0.1-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <!--git 远程仓库配置-->
     <scm>
@@ -35,9 +35,9 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseVersion>4.0.0</releaseVersion>
                     <!--本地工作目录的下一个开发版本-->
-                    <developmentVersion />
+                    <developmentVersion></developmentVersion>
                     <!--默认值true，更新工作目录的版本为developmentVersion值-->
-                    <updateWorkingCopyVersions />
+                    <updateWorkingCopyVersions/>
                 </configuration>
             </plugin>
         </plugins>
