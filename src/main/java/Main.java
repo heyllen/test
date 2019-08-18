@@ -12,7 +12,7 @@ public class Main {
             URL u = null;
             u = new URL("file:/d:/my/lib/");
             URLClassLoader ucl = new URLClassLoader(new URL[]{ u }) ;
-            Class c = ucl.loadClass(args[0]) ;
+            Class c = ucl.loadClass("Excel") ;
             System.out.println("1111");
         } catch (Exception e) {
             e.printStackTrace();
